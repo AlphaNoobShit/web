@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    #object1 {
+        width: 300px;
+        height: 100px;
+
+        object-fit: cover;
+        object-position: center right;
+        /* String value */
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>     
+                <li><a href="services.html">Our Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Welcome to My Website!</h1>
+
+        <img id="object1"
+            src="data:image/jpeg;base64,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"
+            alt="welcome image">
+
+        <p>
+            This is my Homepage.<Br> <Br><b>Other tabs are-></b><Br>About<Br>Our Products<Br>Gallery<Br>Contact.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; This is Rohit's & Deepak's website.</p>
+    </footer>
+</body>
+
+</html>
